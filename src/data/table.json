@@ -1,0 +1,32 @@
+[
+   { 
+        "id" : "p01",
+        "name" : "Samsung",
+        "price" : "2500",
+        "category" : "mobile"
+        
+    },
+    {
+        "id" : "p021",
+        "name" : "Sagfsung",
+        "price" : "25050",
+        "category" : "mobile"
+
+
+
+    },
+    {
+        "id" : "p054r",
+        "name" : "Samsgerung",
+        "price" : "2509870",
+        "category" : "mobile"
+
+
+    },
+    {
+        "id" : "p87901",
+        "name" : "Samsuterng",
+        "price" : "253200",
+        "category" : "mobile"
+    }
+]

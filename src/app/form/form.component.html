@@ -1,0 +1,24 @@
+<form>
+    <table border="2px">
+        <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>price</th>
+            <th>category</th>
+            <th>
+                <a colspan="2">action</a>
+            </th>
+        </tr>
+        <tr *ngFor="let a of arrays, let i = index">
+            <td>{{a.id}}</td>
+            <td>{{a.name}}</td>
+            <td>{{a.price}}</td>
+            <td>{{a.category}}</td>
+            <td>
+                <button (click)=update(i)>UPDATE</button>
+            
+                <button (click)=delete(i)>DELETE</button>
+            </td>
+        </tr>
+    </table>
+</form>

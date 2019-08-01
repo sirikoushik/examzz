@@ -1,0 +1,10 @@
+<form #add=ngForm (ngSubmit)="addnew(add)">
+    <pre>
+        <label>id</label>           <input type="text" name="id" [(ngModel)]="add.id"/>
+        <label>name</label>         <input type="text" name="name" [(ngModel)]="add.name"/>
+        <label>price</label>        <input type="text" name="price" [(ngModel)]="add.price"/>
+        <label>category</label>     <input type="text" name="category" [(ngModel)]="add.category"/>
+        <button type="select">ADD</button>
+
+    </pre>
+</form>
